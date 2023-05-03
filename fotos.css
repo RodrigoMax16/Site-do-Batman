@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: rgba(204, 0, 0,1);
+}
+
+#logo {
+    width: 120px;
+    height:auto;
+}
+
+#fotos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}   
+
+.foto-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.foto1 {
+    background-image: url('https://cinemacomrapadura.com.br/imagens/2022/03/20220307-the-batman.jpeg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color:#fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.foto2 {
+    background-image: url('https://t2.tudocdn.net/614735?w=1920');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color:#fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.foto3 {
+    background-image: url('https://cinebuzz.uol.com.br/media/uploads/the_batman_sera_lancado_na_china_apos_longo_hiato_sem_lancamentos_de_filmes_de_herois_no_pais.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color:#fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.foto4 {
+    background-image: url('https://f.i.uol.com.br/fotografia/2022/03/03/1646335025622114315bf25_1646335025_3x2_md.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color:#fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}   
+
+.foto5 {
+    background-image: url('https://midias.correiobraziliense.com.br/_midias/jpg/2022/02/18/675x450/1_batman_zoe_kravitz_mulher_gato-7471457.jpg?20220218182245?20220218182245');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color:#fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.foto6 {
+    background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/02/Zoe-CNN-Batman.png?w=390');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 30%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color:#fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.foto7 {
+    background-image: url('https://www.correiodopovo.com.br/image/policy:1.376821:1572544112/jeffrey%20.jpg.jpg?a=3%3A2&$p$a=fd6267f');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color:#fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.foto8 {
+    background-image: url('https://cdn.ome.lt/RyTWxMVUwK84GT8gtnFFI9djcHw=/1200x630/smart/extras/conteudos/jeffrey-wright.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color:#fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.foto9 {
+    background-image: url('https://t.ctcdn.com.br/MB-ZBxbrQYN1bd2XCpXdy-eeKw4=/647x816:4016x2714/512x288/smart/filters:format(webp)/i555388.jpeg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color:#fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.nome {
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.foto1:hover {
+    transform: scale(1.05);
+}
+
+.foto2:hover {
+    transform: scale(1.05);
+}
+
+.foto3:hover {
+    transform: scale(1.05);
+}
+
+.foto4:hover {
+    transform: scale(1.05);
+}
+
+.foto5:hover {
+    transform: scale(1.05);
+}
+
+.foto6:hover {
+    transform: scale(1.05);
+}
+
+.foto7:hover {
+    transform: scale(1.05);
+}
+
+.foto8:hover {
+    transform: scale(1.05);
+}
+
+.foto9:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    height: 250px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;        
+    margin-bottom: 30px;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .foto-content {
+        grid-template-columns: 1fr;
+        padding-bottom: 50px ;
+    }
+    #fotos {
+        margin-bottom: 750px;
+    }
+    
+    .foto6 {
+        background-position: 50% 20%;
+    }
+}
